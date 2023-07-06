@@ -7,7 +7,7 @@ class ProductCharacteristic {
 	@Prop()
 	value: string;
 }
-export type UserDocument = HydratedDocument<ProductModel>;
+export type ProductDocument = HydratedDocument<ProductModel>;
 export class ProductModel {
 	@Prop({ unique: true })
 	_id: string;

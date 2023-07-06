@@ -26,7 +26,7 @@ export class TopPageAdvantage {
 	description: string;
 }
 
-export type UserDocument = HydratedDocument<TopPageModel>;
+export type TopPageDocument = HydratedDocument<TopPageModel>;
 
 export class TopPageModel {
 	@Prop()
